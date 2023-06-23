@@ -10,9 +10,7 @@ You need Python 3.6 or later to run this application. You can check your Python 
 python --version
 ```
 
-## Setup
-
-Clone the repository to your local machine:
+## Cloning the repository to your local machine
 
 ### Clonining with SSH set up
 
@@ -24,4 +22,11 @@ git clone git@github.com:missKatiaPunter/flask-tut.git
 
 ```bash
 git clone https://github.com/missKatiaPunter/flask-tut.git
+```
+
+## Virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
