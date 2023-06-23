@@ -30,3 +30,15 @@ git clone https://github.com/missKatiaPunter/flask-tut.git
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
+
+## Install required files
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run the app
+
+```bash
+flask run
+```
